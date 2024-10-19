@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/discountWheel/static/css/main.683ca051.css",
+    "main.js": "/discountWheel/static/js/main.d77596d3.js",
+    "static/js/453.a68d7c31.chunk.js": "/discountWheel/static/js/453.a68d7c31.chunk.js",
+    "index.html": "/discountWheel/index.html",
+    "main.683ca051.css.map": "/discountWheel/static/css/main.683ca051.css.map",
+    "main.d77596d3.js.map": "/discountWheel/static/js/main.d77596d3.js.map",
+    "453.a68d7c31.chunk.js.map": "/discountWheel/static/js/453.a68d7c31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.683ca051.css",
+    "static/js/main.d77596d3.js"
+  ]
+}
