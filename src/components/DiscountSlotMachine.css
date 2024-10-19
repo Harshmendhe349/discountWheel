@@ -1,0 +1,63 @@
+/* DiscountSlotMachine.css */
+.slot-machine-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slot-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .slot-frame {
+    width: 100px;
+    height: 100px;
+    background-color: #cfd7d8a3;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slot-counter {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffea00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .spin-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spin-button:hover {
+    background-color: #218838;
+  }
+  
+  .spin-button.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .discount-result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #28a745;
+    text-align: center;
+  }
+  
